@@ -1,0 +1,448 @@
+{
+  "version": 11,
+  "providers": [
+    {
+      "type": "openai",
+      "id": "openai"
+    },
+    {
+      "type": "anthropic",
+      "id": "anthropic"
+    },
+    {
+      "type": "gemini",
+      "id": "gemini"
+    },
+    {
+      "type": "deepseek",
+      "id": "deepseek"
+    },
+    {
+      "type": "perplexity",
+      "id": "perplexity"
+    },
+    {
+      "type": "groq",
+      "id": "groq"
+    },
+    {
+      "type": "mistral",
+      "id": "mistral"
+    },
+    {
+      "type": "openrouter",
+      "id": "openrouter"
+    },
+    {
+      "type": "ollama",
+      "id": "ollama"
+    },
+    {
+      "type": "lm-studio",
+      "id": "lm-studio"
+    },
+    {
+      "type": "morph",
+      "id": "morph"
+    },
+    {
+      "type": "openai-compatible",
+      "id": "bianxieAPI",
+      "baseUrl": "https://api.bianxie.ai/v1",
+      "apiKey": "sk-irHFezjQ8JZr5FlVOiSZIckEx1FWAUGACWcIFKYTk8aG62BC"
+    },
+    {
+      "type": "openai-compatible",
+      "id": "OpenAI-Hub",
+      "baseUrl": "https://api.openai-hub.com/v1",
+      "apiKey": "sk-9wN1EpL58VnGJiZihpPEsVZLurdHCezxOELTkSPFGzMvj8Id"
+    }
+  ],
+  "chatModels": [
+    {
+      "providerType": "anthropic",
+      "providerId": "anthropic",
+      "id": "claude-sonnet-4.0",
+      "model": "claude-sonnet-4-0"
+    },
+    {
+      "providerType": "anthropic",
+      "providerId": "anthropic",
+      "id": "claude-opus-4.1",
+      "model": "claude-opus-4-1"
+    },
+    {
+      "providerType": "anthropic",
+      "providerId": "anthropic",
+      "id": "claude-3.7-sonnet",
+      "model": "claude-3-7-sonnet-latest",
+      "thinking": {
+        "enabled": true,
+        "budget_tokens": 8192
+      }
+    },
+    {
+      "providerType": "anthropic",
+      "providerId": "anthropic",
+      "id": "claude-3.5-sonnet",
+      "model": "claude-3-5-sonnet-latest",
+      "enable": false
+    },
+    {
+      "providerType": "anthropic",
+      "providerId": "anthropic",
+      "id": "claude-3.5-haiku",
+      "model": "claude-3-5-haiku-latest",
+      "enable": false
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "gpt-5",
+      "model": "gpt-5",
+      "reasoning": {
+        "enabled": true,
+        "reasoning_effort": "high"
+      }
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "gpt-5-mini",
+      "model": "gpt-5-mini",
+      "enable": true
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "gpt-5-nano",
+      "model": "gpt-5-nano",
+      "enable": false
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "gpt-4.1",
+      "model": "gpt-4.1"
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "gpt-4.1-mini",
+      "model": "gpt-4.1-mini",
+      "enable": false
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "gpt-4.1-nano",
+      "model": "gpt-4.1-nano",
+      "enable": false
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "gpt-4o",
+      "model": "gpt-4o",
+      "enable": false
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "gpt-4o-mini",
+      "model": "gpt-4o-mini",
+      "enable": false
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "o4-mini",
+      "model": "o4-mini",
+      "reasoning": {
+        "enabled": true,
+        "reasoning_effort": "high"
+      }
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "o3",
+      "model": "o3",
+      "reasoning": {
+        "enabled": true,
+        "reasoning_effort": "high"
+      }
+    },
+    {
+      "providerType": "gemini",
+      "providerId": "gemini",
+      "id": "gemini-2.5-pro",
+      "model": "gemini-2.5-pro",
+      "enable": false
+    },
+    {
+      "providerType": "gemini",
+      "providerId": "gemini",
+      "id": "gemini-2.5-flash",
+      "model": "gemini-2.5-flash",
+      "enable": false
+    },
+    {
+      "providerType": "gemini",
+      "providerId": "gemini",
+      "id": "gemini-2.5-flash-lite",
+      "model": "gemini-2.5-flash-lite",
+      "enable": false
+    },
+    {
+      "providerType": "gemini",
+      "providerId": "gemini",
+      "id": "gemini-2.0-flash",
+      "model": "gemini-2.0-flash",
+      "enable": false
+    },
+    {
+      "providerType": "gemini",
+      "providerId": "gemini",
+      "id": "gemini-2.0-flash-lite",
+      "model": "gemini-2.0-flash-lite",
+      "enable": false
+    },
+    {
+      "providerType": "deepseek",
+      "providerId": "deepseek",
+      "id": "deepseek-chat",
+      "model": "deepseek-chat",
+      "enable": false
+    },
+    {
+      "providerType": "deepseek",
+      "providerId": "deepseek",
+      "id": "deepseek-reasoner",
+      "model": "deepseek-reasoner",
+      "enable": false
+    },
+    {
+      "providerType": "perplexity",
+      "providerId": "perplexity",
+      "id": "sonar",
+      "model": "sonar",
+      "enable": false,
+      "web_search_options": {
+        "search_context_size": "low"
+      }
+    },
+    {
+      "providerType": "perplexity",
+      "providerId": "perplexity",
+      "id": "sonar-pro",
+      "model": "sonar",
+      "enable": false,
+      "web_search_options": {
+        "search_context_size": "low"
+      }
+    },
+    {
+      "providerType": "perplexity",
+      "providerId": "perplexity",
+      "id": "sonar-deep-research",
+      "model": "sonar-deep-research",
+      "enable": false,
+      "web_search_options": {
+        "search_context_size": "low"
+      }
+    },
+    {
+      "providerType": "perplexity",
+      "providerId": "perplexity",
+      "id": "sonar-reasoning",
+      "model": "sonar",
+      "enable": false,
+      "web_search_options": {
+        "search_context_size": "low"
+      }
+    },
+    {
+      "providerType": "perplexity",
+      "providerId": "perplexity",
+      "id": "sonar-reasoning-pro",
+      "model": "sonar",
+      "enable": false,
+      "web_search_options": {
+        "search_context_size": "low"
+      }
+    },
+    {
+      "providerType": "morph",
+      "providerId": "morph",
+      "id": "morph-v0",
+      "model": "morph-v0",
+      "enable": false
+    }
+  ],
+  "embeddingModels": [
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "openai/text-embedding-3-small",
+      "model": "text-embedding-3-small",
+      "dimension": 1536
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "openai/text-embedding-3-large",
+      "model": "text-embedding-3-large",
+      "dimension": 3072
+    },
+    {
+      "providerType": "gemini",
+      "providerId": "gemini",
+      "id": "gemini/text-embedding-004",
+      "model": "text-embedding-004",
+      "dimension": 768
+    },
+    {
+      "providerType": "ollama",
+      "providerId": "ollama",
+      "id": "ollama/nomic-embed-text",
+      "model": "nomic-embed-text",
+      "dimension": 768
+    },
+    {
+      "providerType": "ollama",
+      "providerId": "ollama",
+      "id": "ollama/mxbai-embed-large",
+      "model": "mxbai-embed-large",
+      "dimension": 1024
+    },
+    {
+      "providerType": "ollama",
+      "providerId": "ollama",
+      "id": "ollama/bge-m3",
+      "model": "bge-m3",
+      "dimension": 1024
+    },
+    {
+      "providerType": "openai-compatible",
+      "providerId": "bianxieAPI",
+      "id": "text-embedding-3-small",
+      "model": "text-embedding-3-small",
+      "dimension": 1536
+    },
+    {
+      "providerType": "openai-compatible",
+      "providerId": "bianxieAPI",
+      "id": "text-embedding-3-large",
+      "model": "text-embedding-3-large",
+      "dimension": 3072
+    }
+  ],
+  "chatModelId": "claude-3.7-sonnet",
+  "applyModelId": "gpt-4.1",
+  "embeddingModelId": "text-embedding-3-large",
+  "systemPrompt": "",
+  "ragOptions": {
+    "chunkSize": 1000,
+    "thresholdTokens": 8192,
+    "minSimilarity": 0,
+    "limit": 10,
+    "excludePatterns": [],
+    "includePatterns": []
+  },
+  "mcp": {
+    "servers": [
+      {
+        "id": "PowerPoint",
+        "parameters": {
+          "command": "npx",
+          "args": [
+            "-y",
+            "@smithery/cli@latest",
+            "run",
+            "@GongRzhe/Office-PowerPoint-MCP-Server",
+            "--key",
+            "ec82b8c4-c83d-4506-b4b1-9474b5faf9ba"
+          ]
+        },
+        "enabled": true,
+        "toolOptions": {}
+      },
+      {
+        "id": "Github",
+        "parameters": {
+          "command": "npx",
+          "args": [
+            "-y",
+            "@smithery/cli@latest",
+            "run",
+            "@smithery-ai/github",
+            "--key",
+            "ec82b8c4-c83d-4506-b4b1-9474b5faf9ba",
+            "--profile",
+            "honest-skink-5y0rW4"
+          ]
+        },
+        "enabled": true,
+        "toolOptions": {}
+      },
+      {
+        "id": "Zotero",
+        "parameters": {
+          "command": "npx",
+          "args": [
+            "-y",
+            "@smithery/cli@latest",
+            "run",
+            "@54yyyu/zotero-mcp",
+            "--key",
+            "ec82b8c4-c83d-4506-b4b1-9474b5faf9ba",
+            "--profile",
+            "honest-skink-5y0rW4"
+          ]
+        },
+        "enabled": true,
+        "toolOptions": {}
+      },
+      {
+        "id": "sequential_thinking",
+        "parameters": {
+          "command": "npx",
+          "args": [
+            "-y",
+            "@smithery/cli@latest",
+            "run",
+            "@smithery-ai/server-sequential-thinking",
+            "--key",
+            "ec82b8c4-c83d-4506-b4b1-9474b5faf9ba",
+            "--profile",
+            "honest-skink-5y0rW4"
+          ]
+        },
+        "enabled": true,
+        "toolOptions": {}
+      },
+      {
+        "id": "Context7",
+        "parameters": {
+          "command": "npx",
+          "args": [
+            "-y",
+            "@smithery/cli@latest",
+            "run",
+            "@upstash/context7-mcp",
+            "--key",
+            "ec82b8c4-c83d-4506-b4b1-9474b5faf9ba"
+          ]
+        },
+        "enabled": true,
+        "toolOptions": {}
+      }
+    ]
+  },
+  "chatOptions": {
+    "includeCurrentFileContent": true,
+    "enableTools": true,
+    "maxAutoIterations": 1
+  }
+}

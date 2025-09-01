@@ -1,0 +1,5 @@
+{
+  "format": "YYYYMMDD_ddd",
+  "folder": "01_Diary",
+  "template": "templates/diary_template"
+}

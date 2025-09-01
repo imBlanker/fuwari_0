@@ -1,0 +1,76 @@
+{
+  "recentFiles": [
+    {
+      "basename": "diary_template",
+      "path": "templates/diary_template.md"
+    },
+    {
+      "basename": "CONTRIBUTING",
+      "path": "CONTRIBUTING.md"
+    },
+    {
+      "basename": "markdown",
+      "path": "src/content/posts/markdown.md"
+    },
+    {
+      "basename": "local-doc.html",
+      "path": "00_Inbox/local-doc.html.md"
+    },
+    {
+      "basename": "expressive-code",
+      "path": "src/content/posts/expressive-code.md"
+    },
+    {
+      "basename": "index",
+      "path": "src/content/posts/guide/index.md"
+    },
+    {
+      "basename": "about",
+      "path": "src/content/spec/about.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "未命名.canvas"
+    },
+    {
+      "basename": "README.id",
+      "path": "docs/README.id.md"
+    },
+    {
+      "basename": "README.vi",
+      "path": "docs/README.vi.md"
+    },
+    {
+      "basename": "Generate glossary",
+      "path": "copilot-custom-prompts/Generate glossary.md"
+    },
+    {
+      "basename": "Translate to Chinese",
+      "path": "copilot-custom-prompts/Translate to Chinese.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "00_Inbox/未命名.md"
+    },
+    {
+      "basename": "README",
+      "path": "node_modules/@babel/code-frame/README.md"
+    },
+    {
+      "basename": "CHANGELOG",
+      "path": "node_modules/jsonc-parser/CHANGELOG.md"
+    },
+    {
+      "basename": "readme",
+      "path": "node_modules/maxmin/readme.md"
+    },
+    {
+      "basename": "20250823 会议记录",
+      "path": "会议记录/20250823 会议记录.md"
+    }
+  ],
+  "omittedPaths": [],
+  "omittedTags": [],
+  "updateOn": "file-open",
+  "omitBookmarks": false
+}

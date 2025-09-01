@@ -1,0 +1,13 @@
+{
+  "showLineNumber": true,
+  "trashOption": "local",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "00_Inbox",
+  "attachmentFolderPath": "attachment",
+  "userIgnoreFilters": [
+    "node_modules/",
+    "copilot-custom-prompts/",
+    "docs/",
+    "templates/"
+  ]
+}

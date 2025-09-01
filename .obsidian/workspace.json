@@ -1,0 +1,256 @@
+{
+  "main": {
+    "id": "fa8098433354a590",
+    "type": "split",
+    "children": [
+      {
+        "id": "08cb5f26d263f4ca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5dbe73d4add5c3c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "templates/diary_template.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "diary_template"
+            }
+          },
+          {
+            "id": "fea8bacf54599cd5",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "29e8050be4145bfc",
+    "type": "split",
+    "children": [
+      {
+        "id": "00a3ffeabd84ef86",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a419f44a67cba51f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "fb094c4af5ad713c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "97487c104adc67f3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          },
+          {
+            "id": "aaa02057e804b8a3",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1f0bd6c0c73e2080",
+    "type": "split",
+    "children": [
+      {
+        "id": "49620ebe4a0a6724",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4079708157c257d9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "会议记录/20250823 会议记录.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "20250823 会议记录 的反向链接列表"
+            }
+          },
+          {
+            "id": "03fd8b6a3df04a20",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "会议记录/20250823 会议记录.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "20250823 会议记录 的出链列表"
+            }
+          },
+          {
+            "id": "8a2e43eb1cbfe143",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "02ae56229cf0d2f8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "会议记录/20250823 会议记录.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "20250823 会议记录 的大纲"
+            }
+          },
+          {
+            "id": "99c37bec4ffdca1d",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "calendar"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:创建新数据库": false,
+      "audio-recorder:开始/结束录音": false,
+      "workspaces:管理工作区布局": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "periodic-notes:Open today": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "smart-composer:Open smart composer": false
+    }
+  },
+  "active": "5dbe73d4add5c3c1",
+  "lastOpenFiles": [
+    "CONTRIBUTING.md",
+    "src/content/posts/markdown.md",
+    "00_Inbox/local-doc.html.md",
+    "src/content/posts/expressive-code.md",
+    "src/content/posts/guide/index.md",
+    "src/content/spec/about.md",
+    "未命名.canvas",
+    "docs/README.id.md",
+    "docs/README.vi.md",
+    "copilot-custom-prompts/Generate glossary.md",
+    "copilot-custom-prompts/Translate to Chinese.md",
+    "00_Inbox/未命名.md",
+    "node_modules/@babel/code-frame/README.md",
+    "node_modules/jsonc-parser/CHANGELOG.md",
+    "node_modules/maxmin/readme.md",
+    "templates/diary_template.md",
+    "会议记录/20250823 会议记录.md",
+    "copilot-custom-prompts/Rewrite as tweet thread.md",
+    "copilot-custom-prompts/Rewrite as tweet.md",
+    "copilot-custom-prompts/Remove URLs.md",
+    "copilot-custom-prompts/Generate table of contents.md",
+    "copilot-custom-prompts/Make longer.md",
+    "copilot-custom-prompts/Make shorter.md",
+    "copilot-custom-prompts/Emojify.md",
+    "copilot-custom-prompts/Explain like I am 5.md",
+    "copilot-custom-prompts/Simplify.md",
+    "copilot-custom-prompts/Summarize.md",
+    "copilot-custom-prompts",
+    "会议记录",
+    "templates",
+    "01_Diary",
+    "attachment",
+    "00_Inbox"
+  ]
+}
