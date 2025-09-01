@@ -28,7 +28,7 @@ import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 // https://astro.build/config
 export default defineConfig({
 	//   site: "https://fuwari.vercel.app/",
-	site: "https://my-astro-app.ilittleblank.workers.dev/",
+	site: "https://www.6263046.wyz/",
 	base: "/",
 	trailingSlash: "always",
 

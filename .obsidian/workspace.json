@@ -217,8 +217,29 @@
       "smart-composer:Open smart composer": false
     }
   },
-  "active": "5dbe73d4add5c3c1",
+  "active": "fb094c4af5ad713c",
   "lastOpenFiles": [
+    "dist/_worker.js/pages/posts/_---slug_.astro.mjs",
+    "dist/_worker.js/chunks/astro/server_E36JSs_3.mjs",
+    "dist/_worker.js/_astro/_page_.BijLsIfg.css",
+    "dist/_worker.js/_astro/_page_.CO27kg37.css",
+    "dist/_worker.js/_astro/roboto-vietnamese-500-normal.CUzdRVXb.woff",
+    "dist/_worker.js/_astro/roboto-vietnamese-700-normal.BFWtvCOj.woff2",
+    "dist/_worker.js/_astro/roboto-vietnamese-700-normal.7YosmkaU.woff",
+    "dist/_worker.js/_astro/roboto-vietnamese-500-normal.HYpufUYk.woff2",
+    "dist/_worker.js/_astro/roboto-vietnamese-400-normal.CDDxGrUb.woff2",
+    "dist/_worker.js/_astro/roboto-vietnamese-400-normal.BYP5tVVv.woff",
+    "dist/_worker.js/_astro/roboto-symbols-700-normal.DKkQdRpM.woff2",
+    "dist/_worker.js/_astro/demo-banner.WD4SMgz_.png",
+    "dist/_worker.js/_astro/cover.CgGywNHJ.jpeg",
+    "dist/_worker.js/_astro/demo-avatar.CxcI0ivM.png",
+    "dist/_worker.js/_astro/avatar.DeoyDjTM.jpg",
+    "dist/_astro/avatar.DeoyDjTM_Zgccpe.webp",
+    "dist/_astro/cover.CgGywNHJ_9MQNr.webp",
+    "dist/favicon/favicon-light-32.png",
+    "dist/favicon/favicon-light-192.png",
+    "dist/favicon/favicon-light-180.png",
+    "dist/favicon/favicon-light-128.png",
     "CONTRIBUTING.md",
     "src/content/posts/markdown.md",
     "00_Inbox/local-doc.html.md",
@@ -244,13 +265,6 @@
     "copilot-custom-prompts/Make shorter.md",
     "copilot-custom-prompts/Emojify.md",
     "copilot-custom-prompts/Explain like I am 5.md",
-    "copilot-custom-prompts/Simplify.md",
-    "copilot-custom-prompts/Summarize.md",
-    "copilot-custom-prompts",
-    "会议记录",
-    "templates",
-    "01_Diary",
-    "attachment",
-    "00_Inbox"
+    "copilot-custom-prompts/Simplify.md"
   ]
 }
